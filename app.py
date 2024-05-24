@@ -13,7 +13,8 @@ y = iris.target
 
 # Display the dataset
 st.header("Iris Dataset")
-st.write(iris)
+df = pd.read_csv("IRIS.csv")
+st.write(df)
 
 # Train a DecisionTreeClassifier
 clf = DecisionTreeClassifier()
