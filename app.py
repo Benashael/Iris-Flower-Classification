@@ -3,9 +3,9 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_iris
 
-st.set_page_config(page_title = "Iris Flower Classification", page_icon = ":Hibiscus:")
+st.set_page_config(page_title = "Iris Flower Classification", page_icon = "🌺")
 
-st.title("Iris Flower Classification :Hibiscus:")
+st.title("Iris Flower Classification 🌺")
 
 iris = load_iris()
 X = iris.data
